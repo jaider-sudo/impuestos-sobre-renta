@@ -1,12 +1,12 @@
 import {user} from '../model/BDuser.js'
 
-function queryUser () {
+export function queryUser () {
     let credenciales = user.some((i) => {
         let user = document.querySelector('#user').value 
         let password = document.querySelector('#password').value
     
         if(user == i.user && password == i.password ){
-            return true;
+            return true
         }else {
             return false 
         }
