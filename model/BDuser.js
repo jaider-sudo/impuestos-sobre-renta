@@ -11,7 +11,7 @@ export let user = [
     },
     {
         user: 'admin',
-        password: 12345,
+        password: 1234,
         id: 3
     }
 
